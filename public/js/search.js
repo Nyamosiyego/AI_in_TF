@@ -20,7 +20,7 @@ export async function performSearch(searchTerm) {
 }
 
 async function fetchSearchResults(searchTerm) {
-  const response = await fetch('/search', {
+  const response = await fetch('http://localhost:5500/search', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ term: searchTerm })

@@ -1263,4 +1263,3 @@ function updateAutocompleteSuggestions(input) {
     return html;
   }
 });
-
