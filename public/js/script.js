@@ -317,7 +317,7 @@ function updateAutocompleteSuggestions(input) {
 
   async function fetchSearchResults(searchTerm) {
     //const response = await fetch('https://25f5-105-161-108-223.ngrok-free.app/search', {
-    const response = await fetch('/search', {
+    const response = await fetch('/earch', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ term: searchTerm })
